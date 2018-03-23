@@ -25,6 +25,7 @@
             android:layout_marginLeft="20sp"
             />
         <TextView
+            android:id="@+id/quantity_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0"
@@ -44,5 +45,6 @@
         android:layout_height="wrap_content"
         android:text="Order"
         android:layout_margin="20sp"
+        android:onClick="submitOrder"
         />
 </LinearLayout>
